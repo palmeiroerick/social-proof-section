@@ -17,7 +17,11 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
-      <body className={`${leagueSpartan.className} h-full py-20 relative`}>{children}</body>
+      <body
+        className={`${leagueSpartan.className} relative h-full py-20 lg:flex lg:h-screen lg:items-center lg:justify-center lg:p-0`}
+      >
+        {children}
+      </body>
     </html>
   );
 };
