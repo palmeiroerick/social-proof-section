@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <>
       <Background />
-      <main className="m-auto flex w-80 flex-col gap-7">
-        <section className="flex flex-col items-center gap-5">
+      <main className="z-10 m-auto flex w-80 flex-col gap-7 lg:grid lg:w-[70rem] lg:grid-cols-2 lg:grid-rows-2 lg:gap-x-0 lg:gap-y-20">
+        <section className="flex flex-col items-center gap-5 lg:pr-24">
           <Title>10,000+ of our users love our products.</Title>
           <Text>
             We only provide great products combined with excellent customer
@@ -17,12 +17,12 @@ const Home = () => {
             services.
           </Text>
         </section>
-        <section className="flex flex-col gap-3">
+        <section className="flex flex-col gap-3 lg:gap-5 lg:pt-8">
           <Rating>Rated 5 Stars in Reviews</Rating>
-          <Rating>Rated 5 Stars in Report Guru</Rating>
-          <Rating>Rated 5 Stars in BestTech</Rating>
+          <Rating className="lg:ml-14">Rated 5 Stars in Report Guru</Rating>
+          <Rating className="lg:ml-28">Rated 5 Stars in BestTech</Rating>
         </section>
-        <section className="flex flex-col gap-3">
+        <section className="flex flex-col gap-3 lg:col-start-1 lg:col-end-3 lg:flex-row lg:gap-8">
           <Review
             name="Colton Smith"
             authorImage="/assets/image-colton.jpg"
@@ -33,6 +33,7 @@ const Home = () => {
             '
           />
           <Review
+            className="lg:relative top-4"
             name="Irene Roberts"
             authorImage="/assets/image-irene.jpg"
             review='
@@ -42,6 +43,7 @@ const Home = () => {
             '
           />
           <Review
+            className="lg:relative top-8"
             name="Anne Wallace "
             authorImage="/assets/image-anne.jpg"
             review='
