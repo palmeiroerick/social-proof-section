@@ -17,12 +17,12 @@ Users should be able to:
 
 ## Screenshot
 
-![](./screenshot.jpg)
+![Screen Shot 2024-01-25 at 18 12 13](https://github.com/palmeiroerick/social-proof-section/assets/148393698/0d52ab43-b8d8-49b5-827c-f4bf44f92174)
 
 ## Links
 
-- [Solution]()
-- [Live Site]()
+- [Solution](https://github.com/palmeiroerick/social-proof-section/)
+- [Live Site](https://social-proof-section-ebon-kappa.vercel.app/)
 
 ## Built with
 
